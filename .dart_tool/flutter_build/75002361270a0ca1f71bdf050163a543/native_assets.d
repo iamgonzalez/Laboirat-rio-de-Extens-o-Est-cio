@@ -1,0 +1,1 @@
+ C:\\Users\\diego\\OneDrive\\Cursos\ e\ codigos\\Flutter\\projeto_estacio\\.dart_tool\\flutter_build\\75002361270a0ca1f71bdf050163a543\\native_assets.yaml: 
