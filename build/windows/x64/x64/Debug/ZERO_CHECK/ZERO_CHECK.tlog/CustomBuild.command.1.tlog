@@ -1,0 +1,10 @@
+^C:\USERS\DIEGO\ONEDRIVE\CURSOS E CODIGOS\FLUTTER\PROJETO_ESTACIO\BUILD\WINDOWS\X64\CMAKEFILES\52A10A77BB55809904ACEFE7F7DC5308\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/diego/OneDrive/Cursos e codigos/Flutter/projeto_estacio/windows" "-BC:/Users/diego/OneDrive/Cursos e codigos/Flutter/projeto_estacio/build/windows/x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/diego/OneDrive/Cursos e codigos/Flutter/projeto_estacio/build/windows/x64/projeto_estacio.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
